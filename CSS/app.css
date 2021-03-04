@@ -1,0 +1,139 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    width: 1200px;
+    height: auto;
+}
+.nav-item{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin: 30px 100px;
+}
+.logo{
+    margin: 20px 50px;
+}
+UL{
+    list-style: none;
+}
+ul > li{
+    float: left;
+    padding-right: 30px;
+    font-size: 10pt;
+}
+.cover-head{
+    background-color: black;
+    width: 100%;
+    height: 505px;
+}
+.cover-head-text{
+    float: left;
+    margin: 100px;
+    color: white;
+    background-color: black;
+}
+.btn-shop-now{
+    margin-top: 20px;
+    color: white;
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.btn-shopping-now{
+    margin-top: 30px;
+    font-size: 8pt;
+    padding: 10px 25px;
+}
+.head-img{
+    display: flex;
+    padding-left: 50px;
+}
+.nav-content-item{
+    display: inline-block;
+    list-style: none;
+    margin: 30px 400px;
+}
+.content-item{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.watch-box{
+    line-height: 10px;
+    margin: 10px;
+}
+.cost{
+    color: coral;
+    float: right;
+}
+.watch-item{
+    box-shadow: 2px 2px 3px 1px gainsboro ;
+}
+.content-2{
+    width: 100%;
+    height: 371px;
+    background: url(../images/images/de_03_02.png);
+    box-shadow: 0 2px 3px gray;
+}
+.content-2-text{
+    text-align: center;
+    float: left;
+    margin-left: 400px;
+    margin-top: 70px;
+    color: white;
+}
+.content-2-img{
+    float: right;
+}
+.photo-layout{
+    position: relative;
+}
+.content-photo-layout{
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 20%;
+    left: 60%;
+}
+.content-watch-news{
+    margin: 20px 0;
+    text-align: center;
+}
+.watch-news-box{
+    width: 465px;
+    padding: 10px;
+    box-shadow: 0 0 3px 2px gainsboro;
+    margin: 30px 10px;
+}
+.watch-news-item{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 50px 30px 20px 30px;
+}
+.footer-left{
+    width: 20%;
+    float: left;
+    margin: 0;
+    color: white;
+}
+.footer-center{
+    width: 60%;
+    color: white;
+    text-align: center;
+}
+hr{
+    border-style: solid;
+    width: 100px;
+}
+.list-footer{
+    margin-left: 100px;
+}
